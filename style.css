@@ -27,13 +27,59 @@
 
 .content p{
    font-size: 16px;
-    font-family: sans-serif;
-    margin: 20px 0;
+   font-family: sans-serif;
+   margin: 20px 0;
+   color: #e9e1e1f2;
 }
 
 .content button{
-   padding: 6px;
-    background: #ff9800;
-    border: 0;
-    border-radius: 3px;
+   padding: 8px 12px;
+   background: #ff9800;
+   border: 0;
+   border-radius: 3px;
+   font-size: 18px;
+
+}
+
+.about {
+   height: 80vh;
+   width: 100%;
+}
+
+.about .container{
+   display: inline;
+   overflow: hidden;
+   clear: both;
+}
+
+.about .left , .right{
+   width: 50%;
+   float: left;
+   height: 100%;
+   color: #fff;
+}
+
+.about .left{
+   background-color: #333;
+
+}
+
+.about .right{
+   background-color: #262222;
+}
+
+.about .content{
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 10%;
+   text-align: center;
+}
+
+.about .content h3{
+   margin-top: 20px;
+    font-size: 26px;
+}
+.about .content h4{
+   margin-bottom: 20px;
+    font-size: 24px;
 }
